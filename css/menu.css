@@ -1,0 +1,76 @@
+body {
+    background: lightblue;
+    font-family: 'Lato' , sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pagina-menu {
+    width: 800px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form button {
+    font-family: 'Lato' , sans-serif !important;
+    text-transform: uppercase;
+    outline: 0;
+    background: #6d6d6d;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover:not(.active) {
+    background-color: #8e8e8e;
+}
+
+.form #sair {
+	font-family: 'Lato' , sans-serif !important;
+    text-transform: uppercase;
+    outline: 0;
+    background: #FF6347;
+    width: 100%;
+    border: 0;
+    padding: 15px; 
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form #sair:hover:not(.active) {
+    background-color: #FFA07A;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+.form .form-cadastro {
+    display: none;
+}
